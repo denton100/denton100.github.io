@@ -1,0 +1,205 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+header nav {
+    height: 53px;
+    background: #212121;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+
+}
+
+header nav .menu{
+    padding: 15px 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link {
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+color: #FFFFFF;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 26px;
+}
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    min-width: 87px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .logo {
+    display: block;
+    margin-top: 17px;
+}
+.subheader .logo_img {
+    max-width: 100%;
+}
+.subheader .official_text {
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.subheader .call_us {
+    margin-top: 22px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.subheader .phone {
+    display: block;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.subheader .subheader_btn {
+    margin-top: 20px;
+    margin-bottom: 18px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+/* Promo */
+.promo {
+    min-height: 799px;
+    background: url(../img/background/header_bg.jpg) center center / cover no-repeat;
+    padding: 152px 0 185px 0;
+}
+
+.promo h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo h2 {
+    margin-top: 23px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .promo_text {
+    margin-top: 16px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+    /* Benefits*/
+
+.benefits {
+    min-height: 849px;
+    padding: 18px 0 64px 0;
+}
+
+.benefits .small_heading {
+    margin: 0 auto;
+    padding: 6px 0;
+    width: 115px;
+    height: 27px;
+    background-color: black;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.benefits h2 {
+    margin-top: 32px;
+    font-size: 38px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: bold;
+}
+.benefits_box {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits .benefits_box .benefit_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background: #1EACC7;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.benefits .benefits_box .benefits_text {
+    width: 343px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.benefits .benefits_box .benefits_text span {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
